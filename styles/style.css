@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header-logo {
+    background: #071D49;
+}
+
+.logo img {
+    margin: 10px;
+}
+
+.background-logo {
+    position: absolute;
+    width: 1322px;
+    height: 734px;
+    left: -38px;
+}
+
+.container-logo {
+    position: relative;
+    left: -7.46%;
+    right: 61.14%;
+    top: -47.68%;
+    bottom: 12.47%;
+    transform: rotate(26deg);
+}
+
+.holon-logo {
+    position: absolute;
+    width: 790px;
+    height: 256px;
+    left: 441px;
+    top: 172px;
+    font-size: 55px;
+    display: flex;
+    flex-direction: column;
+    color: #ffff;
+}
+
+.holon-logo p {
+    width: 300px;
+    margin-top: -45px;
+    font-size: 35px;
+}
