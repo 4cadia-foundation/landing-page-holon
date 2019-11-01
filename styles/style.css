@@ -26,9 +26,9 @@ body {
 
 .holon-logo  {
     position: absolute;
-    width: 773px;
+    width: 790px;
     height: 256px;
-    left: 536px;
+    left: 441px;
     top: 172px;
     font-size: 55px;
     display: flex;
@@ -37,6 +37,8 @@ body {
 }
 
 .holon-logo p {
+    width: 300px;
     margin-top: -45px;
-    font-size: 30px;
+    font-size: 35px;
 }
+
