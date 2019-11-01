@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Noto Sans', sans-serif;
 }
 .header-logo {
     background: #071D49;
@@ -29,7 +30,6 @@ body {
 
 .holon-logo {
     position: absolute;
-    width: 790px;
     height: 256px;
     left: 441px;
     top: 172px;
@@ -40,7 +40,7 @@ body {
 }
 
 .holon-logo p {
-    width: 300px;
+    width: 350px;
     margin-top: -45px;
     font-size: 35px;
 }
@@ -48,7 +48,6 @@ body {
 .container-content {
     position: absolute;
     widows: 70%;
-    font-size: 35.16px;
     margin-top: 50%;
     margin-left: 30px;
     display: flex;
@@ -56,11 +55,8 @@ body {
 }
 
 .container-holon {
+    margin-top: 100px;
     width: 50%;
-}
-
-.container-content {
-    font-size: 35.16px;
 }
 
 .container-holon h1 {
@@ -68,11 +64,37 @@ body {
 }
 
 .container-holon p {
-    margin-top: -20px;
+    margin-top: 20px;
     font-size: 18px;
 }
 
 .container-content img {
     margin-top: 11%;
     margin-left: 29%;
+}
+
+.how-holon {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.how-holon img {
+    margin-left: 20px;
+    margin-top: 97%;
+}
+
+.how-text {
+    margin-top: 97%;
+    margin-left: 191px;
+    width: 50%;
+    text-align: right;
+}
+
+.how-holon h1 {
+    color: #F0AD4E;
+}
+
+.how-holon p {
+    font-size: 18px;
 }
