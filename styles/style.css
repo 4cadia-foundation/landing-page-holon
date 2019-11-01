@@ -2,9 +2,12 @@ body {
     margin: 0;
     padding: 0;
 }
-
 .header-logo {
     background: #071D49;
+}
+
+.logo img {
+    margin: 10px;
 }
 
 .background-logo {
@@ -20,11 +23,10 @@ body {
     right: 61.14%;
     top: -47.68%;
     bottom: 12.47%;
-
     transform: rotate(26deg);
 }
 
-.holon-logo  {
+.holon-logo {
     position: absolute;
     width: 790px;
     height: 256px;
