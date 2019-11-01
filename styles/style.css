@@ -15,6 +15,7 @@ body {
     width: 1322px;
     height: 734px;
     left: -38px;
+    margin-top: -42px;
 }
 
 .container-logo {
@@ -42,4 +43,36 @@ body {
     width: 300px;
     margin-top: -45px;
     font-size: 35px;
+}
+
+.container-content {
+    position: absolute;
+    widows: 70%;
+    font-size: 35.16px;
+    margin-top: 50%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-holon {
+    width: 50%;
+}
+
+.container-content {
+    font-size: 35.16px;
+}
+
+.container-holon h1 {
+    color: #F0AD4E;
+}
+
+.container-holon p {
+    margin-top: -20px;
+    font-size: 18px;
+}
+
+.container-content img {
+    margin-top: 11%;
+    margin-left: 29%;
 }
