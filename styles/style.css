@@ -45,9 +45,14 @@ body {
     font-size: 35px;
 }
 
+.holon-logo img {
+    margin-top: 30px;
+    margin-bottom: -100px;
+    margin-left: -103px;
+}
+
 .container-content {
     position: absolute;
-    widows: 70%;
     margin-top: 50%;
     margin-left: 30px;
     display: flex;
@@ -97,4 +102,105 @@ body {
 
 .how-holon p {
     font-size: 18px;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+
+.actors {
+    text-align: center;
+    color: #F0AD4E;
+    margin-top: 8%;
+}
+
+.actors-boxes {
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.actors-boxes::before {
+    z-index: -1;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 85%;
+    height: 108%;
+    transform: matrix(-0.99, 0.18, -0.16, -0.98, 0, 0);
+    background: linear-gradient(90deg, #F0AD4E 0%, #6F4912 100%);
+    border-radius: 50px;
+    background-size: contain;
+}
+
+.actors-box {
+    background: #fff;
+    height: 400px;
+    width: 30%;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 16px 24px rgba(7, 29, 73, 0.2);    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.titulo {
+    color: #F0AD4E;
+}
+
+.box-two {
+    background: #CE9037;
+    color: #fff;
+}
+
+.box-two h1 {
+    color: #fff;
+}
+
+.box-two p {
+    margin-top: -5px;
+}
+
+.box-three {
+    margin-top: -10px;
+}
+
+.paragraph {
+    font-size: 15px;
+}
+
+.howworks {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.howworks-box {
+    background: #fff;
+    height: 200px;
+    width: 80%;
+    margin-top: 5%;
+    border-radius: 20px;
+    box-shadow: 0px 16px 24px rgba(7, 29, 73, 0.2); 
+    border: 1px solid #C6CACC;   
+    display: flex;
+
+}
+
+.image {
+    display: flex;
+    align-items: center;
+}
+
+.container-howworks {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
