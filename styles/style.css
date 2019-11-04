@@ -178,7 +178,7 @@ body {
 }
 
 .howworks {
-    margin-top: 20%;
+    margin-top: 10%;
     text-align: center;
 }
 
@@ -187,13 +187,22 @@ body {
     height: 200px;
     width: 80%;
     margin-top: 5%;
-    margin-left: 50px;
     border-radius: 20px;
-    box-sizing: border-box;
     box-shadow: 0px 16px 24px rgba(7, 29, 73, 0.2); 
     border: 1px solid #C6CACC;   
     display: flex;
-    flex-direction: row;
+
+}
+
+.image {
+    display: flex;
+    align-items: center;
+}
+
+.container-howworks {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -202,6 +211,7 @@ body {
 .container-invite-dev {
     display: flex;
     flex-direction: row;
+    margin-top: 30px;
 }
 
 .container-invite-dev img {
