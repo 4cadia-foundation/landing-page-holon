@@ -195,5 +195,16 @@ body {
     flex-direction: row;
     align-items: center;
     text-align: center;
-    justify-content: center
+    justify-content: center;
+}
+
+.container-invite-dev {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-invite-dev-text {
+   text-align: center;
+   margin-top: 60px;
+   margin-left: 30px;
 }
