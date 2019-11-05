@@ -151,7 +151,7 @@ body {
     justify-content: center;
 }
 
-.titulo {
+.title {
     color: #F0AD4E;
 }
 
@@ -203,4 +203,37 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+
+.container-invite-dev {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.container-invite-dev img {
+    margin-left: 3%;
+}
+
+.container-invite-dev-text {
+   text-align: center;
+   margin-top: 40px;
+   margin-left: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #CE9037;
+    padding-top: 5px;
+    padding-left: 3px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.link-github {
+    display: flex;
+    justify-content: center;
 }
