@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: 'Noto Sans', sans-serif;
 }
+
 .header-logo {
     background: #071D49;
 }
@@ -205,7 +206,6 @@ body {
     align-items: center;
 }
 
-
 .container-invite-dev {
     display: flex;
     flex-direction: row;
@@ -273,4 +273,9 @@ a:hover {
 .button-newsletter:active {
     position:relative;
     top:1px;
+}
+
+footer {
+    background: #071D49;
+    margin-top: 60px;
 }
