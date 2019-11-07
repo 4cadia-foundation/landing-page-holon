@@ -3,6 +3,11 @@ body {
     padding: 0;
     font-family: 'Noto Sans', sans-serif;
 }
+
+main {
+    margin: 10%;
+}
+
 .header-logo {
     background: #071D49;
 }
@@ -53,7 +58,7 @@ body {
 
 .container-content {
     position: absolute;
-    margin-top: 50%;
+    margin-top: 35%;
     margin-left: 30px;
     display: flex;
     flex-direction: row;
@@ -70,13 +75,13 @@ body {
 
 .container-holon p {
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 15px;
+    text-align: justify;
 }
 
 .container-content img {
     margin-top: 11%;
-    margin-left: 29%;
-}
+    margin-left: 19%;}
 
 .how-holon {
     margin-left: 30px;
@@ -101,7 +106,8 @@ body {
 }
 
 .how-holon p {
-    font-size: 18px;
+    font-size: 15px;
+    text-align: right;
 }
 
 .container {
@@ -140,7 +146,7 @@ body {
 .actors-box {
     background: #fff;
     height: 400px;
-    width: 30%;
+    width: 32%;
     border-radius: 20px;
     box-sizing: border-box;
     box-shadow: 0px 16px 24px rgba(7, 29, 73, 0.2);    
@@ -151,7 +157,12 @@ body {
     justify-content: center;
 }
 
+.actors-box p {
+    margin: 10px;
+}
+
 .title {
+    margin-top: 10px;
     color: #F0AD4E;
 }
 
@@ -185,7 +196,7 @@ body {
     background: #fff;
     height: 200px;
     width: 80%;
-    margin-top: 5%;
+    margin-top: 1%;
     border-radius: 20px;
     box-shadow: 0px 16px 24px rgba(7, 29, 73, 0.2); 
     border: 1px solid #C6CACC;   
@@ -198,13 +209,16 @@ body {
     align-items: center;
 }
 
+.img-validator {
+    margin: 24px;
+}
+
 .container-howworks {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 
 .container-invite-dev {
     display: flex;
@@ -273,4 +287,61 @@ a:hover {
 .button-newsletter:active {
     position:relative;
     top:1px;
+}
+
+footer {
+    height: 105px;
+    background: #071D49;
+    margin-top: 60px;
+    display: flex;    
+    flex-direction: row;
+}
+
+.footer-logo {
+    width: 100%;
+}
+
+.footer-content {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-developers {
+    color: #ffff;
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+}
+
+.footer-icon {
+    width: 186px;
+    color: #ffff;
+    margin-right: 33px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-icon p {
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-font {
+    font-weight: 600;
+}
+
+.footer-content a {
+    color: #fff;
+}
+
+.separation-text {
+    margin: 14px;
 }
