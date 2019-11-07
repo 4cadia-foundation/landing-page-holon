@@ -333,3 +333,15 @@ footer {
     flex-direction: row;
     justify-content: space-around;
 }
+
+.footer-font {
+    font-weight: 600;
+}
+
+.footer-content a {
+    color: #fff;
+}
+
+.separation-text {
+    margin: 14px;
+}
