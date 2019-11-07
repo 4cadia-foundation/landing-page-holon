@@ -298,6 +298,7 @@ footer {
 }
 
 .footer-logo {
+    margin-top: 40px;
     width: 100%;
 }
 
@@ -344,4 +345,19 @@ footer {
 
 .separation-text {
     margin: 14px;
+    margin-top: -15px;
+}
+
+.rodmap-central {
+    margin-top: 10%;
+}
+
+.rodmap {
+    margin-top: 10%;
+    margin-left: 12%;
+}
+
+.title-details {
+    margin-left: 14px;
+    margin-top: 25px;
 }
