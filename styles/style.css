@@ -1,11 +1,24 @@
+html {
+    margin: 0;
+}
+
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     font-family: 'Noto Sans', sans-serif;
 }
 
 main {
     margin: 10%;
+}
+
+#subtitle {
+    margin-top: 0;
+}
+
+.digital {
+    width: 90%;
 }
 
 .header-logo {
@@ -16,92 +29,112 @@ main {
     margin: 10px;
 }
 
-.background-logo {
+
+.translate {
+    background: #ffff;
     position: absolute;
-    width: 1322px;
-    height: 734px;
-    left: -38px;
-    margin-top: -42px;
+    width: 10vw;
+    height: 10vw;
+    left: 50%;
+    transform: translate(-50%, -5vw) scaleX(12) rotate(45deg);
+}
+.background {
+    background: linear-gradient( 70.55deg, #1A4DA0 0%, #00063C 71.88%, #071D49 100%);
+    display: flex;
+    align-items: center;
+    padding: 7rem 5rem calc(5rem + 5vw);
 }
 
+@-moz-document url-prefix() { 
+
+    .background {
+        padding: 6rem 5rem calc(5rem + 5vw);
+   } 
+
+   #subtitle {
+       font-size: 70px;
+   }
+
+   .container-content {
+       margin-top: -10%;
+   }
+
+   .how-holon {
+       margin-top: 6%;
+   }
+}
+
+
 .container-logo {
-    position: relative;
-    left: -7.46%;
-    right: 61.14%;
-    top: -47.68%;
-    bottom: 12.47%;
+    margin-left: -11vw;
     transform: rotate(26deg);
 }
 
 .holon-logo {
-    position: absolute;
-    height: 256px;
-    left: 441px;
-    top: 172px;
-    font-size: 55px;
+    margin-left: 4%;
+    font-size: 48px;
     display: flex;
     flex-direction: column;
     color: #ffff;
 }
 
+.holon-logo img {
+    margin-left: -8%;
+}
+
 .holon-logo p {
-    width: 350px;
-    margin-top: -45px;
+    width: 50%;
+    margin-top: -7%;
     font-size: 35px;
 }
 
-.holon-logo img {
-    margin-top: 30px;
-    margin-bottom: -100px;
-    margin-left: -103px;
-}
-
 .container-content {
-    position: absolute;
-    margin-top: 35%;
-    margin-left: 30px;
+    margin-top: -11%;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    width: 90vw;
 }
 
 .container-holon {
-    margin-top: 100px;
     width: 50%;
+    margin-top: 5%;
 }
 
-.container-holon h1 {
+.container-holon h2 {
     color: #F0AD4E;
 }
 
 .container-holon p {
-    margin-top: 20px;
     font-size: 15px;
     text-align: justify;
 }
 
 .container-content img {
-    margin-top: 11%;
-    margin-left: 19%;}
+    margin-top: 10%;
+    margin-left: 14%;
+}
 
 .how-holon {
+    margin-top: 7%;
     margin-left: 30px;
     display: flex;
     flex-direction: row;
 }
 
 .how-holon img {
-    margin-left: 20px;
-    margin-top: 97%;
+    margin-left: 5%;
+
 }
 
 .how-text {
-    margin-top: 97%;
+    margin-top: -7%;
     margin-left: 191px;
     width: 50%;
     text-align: right;
 }
 
-.how-holon h1 {
+.how-holon h2 {
     color: #F0AD4E;
 }
 
@@ -123,7 +156,7 @@ main {
 
 .actors-boxes {
     position: relative;
-    margin-top: 50px;
+    margin-top: 6%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -162,7 +195,6 @@ main {
 }
 
 .title {
-    margin-top: 10px;
     color: #F0AD4E;
 }
 
@@ -171,7 +203,7 @@ main {
     color: #fff;
 }
 
-.box-two h1 {
+.box-two h2 {
     color: #fff;
 }
 
