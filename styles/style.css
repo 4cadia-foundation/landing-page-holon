@@ -381,11 +381,11 @@ footer {
     margin-top: -15px;
 }
 
-.rodmap-central {
+.roadmap-central {
     margin-top: 10%;
 }
 
-.rodmap {
+.roadmap {
     margin-top: 10%;
     margin-left: 12%;
 }
@@ -394,14 +394,3 @@ footer {
     margin-left: 14px;
     margin-top: 25px;
 }
-
-/* Small devices (landscape phones, less than 768px) */
-/* @media (max-width: 768px) {
-    :root {
-    --font-size-hero-title: 1.52rem;
-    --font-size-hero-subtitle: 0.85rem;
-    --font-size-section-title: 1.76rem;
-    --font-size-section-subtitle: 1.28rem;
-    --font-size-text: 0.8rem;
-    }
-} */
