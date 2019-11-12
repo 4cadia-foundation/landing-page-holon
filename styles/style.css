@@ -403,6 +403,10 @@ footer {
     margin-left: 12%;
 }
 
+.roadmap-mobile {
+    display: none;
+}
+
 .title-details {
     margin-left: 14px;
     margin-top: 25px;

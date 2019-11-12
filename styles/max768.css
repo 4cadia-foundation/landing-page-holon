@@ -1,0 +1,141 @@
+@media (max-width: 768px) {
+    
+    .container-holon p {
+        font-size: 12px;
+    }
+
+    .how-holon {
+        width: 90%;
+        margin-top: 0;  
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: center;
+        align-items: center;
+    }
+
+    .how-holon p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .how-holon img {
+        display: none;
+    }
+
+    .how-text {
+        margin-top: 0;
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .actors-boxes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: none;
+    }
+
+    .actors-boxes::before {
+        display: none;
+    }
+
+    .actors-box {
+        width: 75%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+
+    .actors-box p {
+        font-size: 12px;
+    }
+
+    .container-howworks {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .howworks {
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .howworks-box {
+        height: 50%;
+        width: 80%;
+    }
+
+    .separation-text {
+        font-size: 12px;
+        margin-top: none;
+    }
+
+    .container-invite-dev {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .container-invite-dev img {
+        display: none;
+    }
+
+    #input-newsletter {
+        width: 37%;
+    }
+
+    .paragraph {
+        font-size: 12px;
+    }
+
+    .container-newsletter {
+        margin-top: 10%;
+    }
+
+    .footer-content {
+        width: 46%;
+        margin-top: 1%;
+        font-size: 12px;
+    }
+
+    .footer-icon {
+        width: 40%;
+    }
+
+    .footer-logo {
+        width: 69%;
+    }
+
+    .roadmap-full {
+        display: none;
+    }
+
+    .roadmap-mobile {
+        display: initial;
+        width: 50%;
+    }
+    .roadmap {
+        margin-top: 0;
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+
+
+
+
+
+}
