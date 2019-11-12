@@ -125,6 +125,7 @@ main {
 
 .how-holon img {
     margin-left: 5%;
+    width: 30%;
 
 }
 
@@ -145,8 +146,8 @@ main {
 }
 
 .container {
-    max-width: 80%;
     margin: auto;
+    max-width: 80%;
 }
 
 .actors {
@@ -263,6 +264,10 @@ main {
     margin-left: 7%;
 }
 
+.invite-dev-img {
+    width: 20%;
+}
+
 .container-invite-dev-text {
    text-align: center;
    margin-top: 40px;
@@ -335,6 +340,10 @@ footer {
     width: 100%;
 }
 
+.footer-logo img {
+    height: 40%;
+}
+
 .footer-content {
     width: 50%;
     display: flex;
@@ -366,6 +375,10 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.icons img {
+    height: 25px;
 }
 
 .footer-font {
