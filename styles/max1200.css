@@ -116,4 +116,15 @@
     .howworks-box h2 {
         font-size: 15pt;
     }
+
+    .container-invite-dev {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    .invite-dev-img {
+        width: 35%;
+    }
 }

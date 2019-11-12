@@ -264,6 +264,10 @@ main {
     margin-left: 7%;
 }
 
+.invite-dev-img {
+    width: 20%;
+}
+
 .container-invite-dev-text {
    text-align: center;
    margin-top: 40px;
