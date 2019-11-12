@@ -125,6 +125,27 @@
     }
 
     .invite-dev-img {
-        width: 35%;
+        width: 30%;
+    }
+
+    .button-newsletter {
+        padding: 8px 12px;
+    }
+
+    .footer-content {
+        width: 60%;
+    }
+
+    .footer-developers {
+        margin: 0;
+    }
+
+    .footer-icon {
+        padding-left: 6%;
+    }
+
+    .icons {
+        margin: 0;
+        width: 80%;
     }
 }

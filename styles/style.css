@@ -340,6 +340,10 @@ footer {
     width: 100%;
 }
 
+.footer-logo img {
+    height: 40%;
+}
+
 .footer-content {
     width: 50%;
     display: flex;
@@ -371,6 +375,10 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.icons img {
+    height: 25px;
 }
 
 .footer-font {
