@@ -1,0 +1,55 @@
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) {
+
+    #subtitle {
+        font-size: 30pt;
+    }
+
+    .holon-logo img {
+        padding-left: 4%;
+        width: 459.25pt;
+        height: 109pt;
+    }
+
+    .holon-logo p {
+        font-size: 20pt;
+        padding-top: 3%;
+    }
+
+    .holon-logo {
+        font-size: 25pt;
+    }
+
+    .digital {
+        margin-left: -4vw;
+    }
+
+    .background {
+        height: 54vh;
+    }
+
+    .container-content {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .container-content img {
+        margin: 0;
+        width: 312px;
+        height: 394px;
+    }
+
+    .container-holon {
+        width: 80%;
+        margin-top: 5%;
+    }
+
+    .container-holon h2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
