@@ -104,4 +104,16 @@
     .actors-content {
         padding: 2% 0;
     }
+
+    .howworks-box {
+        width: 90%;
+    }
+
+    .separation-text {
+        font-size: 10pt;
+    }
+
+    .howworks-box h2 {
+        font-size: 15pt;
+    }
 }
