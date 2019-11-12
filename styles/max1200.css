@@ -52,4 +52,29 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .how-holon {
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .how-holon p {
+        text-align: justify;
+    }
+
+    .how-holon img {
+        display: none;
+        width: 40%;
+        margin-top: 3%;
+    }
+
+    .how-text {
+        margin: 0;
+        text-align: center;
+        width: 80%;
+    }
 }
